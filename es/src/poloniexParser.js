@@ -88,7 +88,7 @@ var parser = parse({delimiter: ","}, function(err, data) {
 
         var withdrawOut = [];
         withdrawOut.push(header);
-        // 2017-06-09 15:50:43, BTS, 52225.44149000, 93241942662236c7,COMPLETE
+        // 2017-06-09 15:50:43, X4T, 52225.44149000, 93241942662236c7,COMPLETE
         data.forEach(function(d) {
             if (d[2] !== "Amount")
                 withdrawOut.push([

@@ -37,7 +37,7 @@ If you prefer to have Poloniex transactions grouped by order number (instead of 
 
 `node poloniexParser.js`
 
-This will generate three files in the output folder that can be imported directly into Cointracking. Deposit/withdrawal is the same CSV format as the BTS history, trade history using manual Poloniex Exchange import.
+This will generate three files in the output folder that can be imported directly into Cointracking. Deposit/withdrawal is the same CSV format as the X4T history, trade history using manual Poloniex Exchange import.
 
 # Caveats
 

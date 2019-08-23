@@ -186,7 +186,7 @@ var doWork = (function() {
                                 );
 
                                 /* Some checking code here */
-                                // let assetsToCheck = ["BTS", "BTC"];
+                                // let assetsToCheck = ["X4T", "BTC"];
                                 // console.log("");
                                 // let assets = Object.keys(assetMovements).sort();
                                 // assets.forEach(asset => {
