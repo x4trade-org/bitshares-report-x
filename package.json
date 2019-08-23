@@ -1,6 +1,6 @@
 {
   "name": "bitshares-report-x",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Create a CSV export of content from the Bitshares Blockchain for use with Cointracking.info",
   "main": "./dist/index.js",
   "jsnext:main": "./es/index.js",
@@ -29,10 +29,10 @@
     "pretty-quick": "^1.4.1",
     "rimraf": "^2.6.1",
     "uglify-js": "^3.3.10",
-    "x4tradejs": "^1.8.3"
+    "x4tradejs": "^1.8.4"
   },
   "peerDependencies": {
-    "x4tradejs": "^1.8.3"
+    "x4tradejs": "^1.8.4"
   },
   "scripts": {
     "start": "cross-env NODE_ENV=node node lib/src/app.js",
@@ -46,5 +46,16 @@
     "prebrowserify": "npm run build",
     "browserify": "cross-env NODE_ENV=production browserify dist/index.js --standalone index -o build/index.js -d",
     "postbrowserify": "cross-env NODE_ENV=production uglifyjs --compress --mangle --sequences --drop_console --mangle-props --screw-ie8 --output build/index.min.js -- build/index.js"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x4trade-org/bitshares-report-x.git"
+  },
+  "bugs": {
+    "url": "https://github.com/x4trade-org/bitshares-report-x/issues"
+  },
+  "homepage": "https://github.com/x4trade-org/bitshares-report-x#readme"
 }
