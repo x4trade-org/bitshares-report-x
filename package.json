@@ -7,7 +7,7 @@
   "author": "svk31",
   "license": "MIT",
   "dependencies": {
-    "async": "^2.6.0",
+    "async": "^3.2.2",
     "csv": "^3.0.2",
     "moment": "^2.22.0",
     "node-fetch": "^2.2.0"
